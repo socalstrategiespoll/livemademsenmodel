@@ -36,8 +36,8 @@
     "turnout": 109
   },
   "Amesbury": {
-    "markey": 54.06,
-    "moulton": 45.94,
+    "markey": 49.4,
+    "moulton": 50.6,
     "region": "North_Shore_Essex",
     "turnout": 2192
   },
@@ -48,8 +48,8 @@
     "turnout": 3904
   },
   "Andover": {
-    "markey": 58.2,
-    "moulton": 41.8,
+    "markey": 53.54,
+    "moulton": 46.46,
     "region": "North_Shore_Essex",
     "turnout": 4522
   },
@@ -96,8 +96,8 @@
     "turnout": 776
   },
   "Attleboro": {
-    "markey": 52.04,
-    "moulton": 47.96,
+    "markey": 56.04,
+    "moulton": 43.96,
     "region": "Southeastern_Bristol",
     "turnout": 4034
   },
@@ -150,8 +150,8 @@
     "turnout": 1992
   },
   "Bellingham": {
-    "markey": 56.8,
-    "moulton": 43.2,
+    "markey": 60.8,
+    "moulton": 39.2,
     "region": "MetroWest",
     "turnout": 1532
   },
@@ -162,8 +162,8 @@
     "turnout": 4597
   },
   "Berkley": {
-    "markey": 50.4,
-    "moulton": 49.6,
+    "markey": 54.4,
+    "moulton": 45.6,
     "region": "Southeastern_Bristol",
     "turnout": 543
   },
@@ -180,8 +180,8 @@
     "turnout": 320
   },
   "Beverly": {
-    "markey": 54.13,
-    "moulton": 45.87,
+    "markey": 49.47,
+    "moulton": 50.53,
     "region": "North_Shore_Essex",
     "turnout": 5581
   },
@@ -192,8 +192,8 @@
     "turnout": 4223
   },
   "Blackstone": {
-    "markey": 54.9,
-    "moulton": 45.1,
+    "markey": 58.9,
+    "moulton": 41.1,
     "region": "MetroWest",
     "turnout": 660
   },
@@ -228,8 +228,8 @@
     "turnout": 905
   },
   "Boxford": {
-    "markey": 57.02,
-    "moulton": 42.98,
+    "markey": 52.36,
+    "moulton": 47.64,
     "region": "North_Shore_Essex",
     "turnout": 1040
   },
@@ -276,8 +276,8 @@
     "turnout": 290
   },
   "Brookline": {
-    "markey": 84.39,
-    "moulton": 15.61,
+    "markey": 88.39,
+    "moulton": 11.61,
     "region": "Inner_Core",
     "turnout": 10366
   },
@@ -426,8 +426,8 @@
     "turnout": 880
   },
   "Danvers": {
-    "markey": 45.34,
-    "moulton": 54.66,
+    "markey": 40.68,
+    "moulton": 59.32,
     "region": "North_Shore_Essex",
     "turnout": 3238
   },
@@ -456,8 +456,8 @@
     "turnout": 2282
   },
   "Dighton": {
-    "markey": 48.18,
-    "moulton": 51.82,
+    "markey": 52.18,
+    "moulton": 47.82,
     "region": "Southeastern_Bristol",
     "turnout": 665
   },
@@ -468,8 +468,8 @@
     "turnout": 671
   },
   "Dover": {
-    "markey": 72.8,
-    "moulton": 27.2,
+    "markey": 76.8,
+    "moulton": 23.2,
     "region": "MetroWest",
     "turnout": 931
   },
@@ -552,8 +552,8 @@
     "turnout": 185
   },
   "Essex": {
-    "markey": 52.96,
-    "moulton": 47.04,
+    "markey": 48.3,
+    "moulton": 51.7,
     "region": "North_Shore_Essex",
     "turnout": 565
   },
@@ -570,8 +570,8 @@
     "turnout": 1782
   },
   "Fall River": {
-    "markey": 38.64,
-    "moulton": 61.36,
+    "markey": 42.64,
+    "moulton": 57.36,
     "region": "Southeastern_Bristol",
     "turnout": 5852
   },
@@ -594,8 +594,8 @@
     "turnout": 67
   },
   "Foxborough": {
-    "markey": 60.32,
-    "moulton": 39.68,
+    "markey": 64.32,
+    "moulton": 35.68,
     "region": "South_Shore_Plymouth",
     "turnout": 2234
   },
@@ -606,8 +606,8 @@
     "turnout": 8216
   },
   "Freetown": {
-    "markey": 48.05,
-    "moulton": 51.95,
+    "markey": 52.05,
+    "moulton": 47.95,
     "region": "Southeastern_Bristol",
     "turnout": 817
   },
@@ -618,8 +618,8 @@
     "turnout": 1590
   },
   "Georgetown": {
-    "markey": 48.88,
-    "moulton": 51.12,
+    "markey": 44.22,
+    "moulton": 55.78,
     "region": "North_Shore_Essex",
     "turnout": 969
   },
@@ -630,8 +630,8 @@
     "turnout": 247
   },
   "Gloucester": {
-    "markey": 52.51,
-    "moulton": 47.49,
+    "markey": 47.85,
+    "moulton": 52.15,
     "region": "North_Shore_Essex",
     "turnout": 4132
   },
@@ -684,8 +684,8 @@
     "turnout": 2604
   },
   "Groveland": {
-    "markey": 47.1,
-    "moulton": 52.9,
+    "markey": 42.44,
+    "moulton": 57.56,
     "region": "North_Shore_Essex",
     "turnout": 792
   },
@@ -702,8 +702,8 @@
     "turnout": 756
   },
   "Hamilton": {
-    "markey": 58.86,
-    "moulton": 41.14,
+    "markey": 54.2,
+    "moulton": 45.8,
     "region": "North_Shore_Essex",
     "turnout": 1098
   },
@@ -756,8 +756,8 @@
     "turnout": 610
   },
   "Haverhill": {
-    "markey": 43.22,
-    "moulton": 56.78,
+    "markey": 38.56,
+    "moulton": 61.44,
     "region": "North_Shore_Essex",
     "turnout": 5640
   },
@@ -810,8 +810,8 @@
     "turnout": 4720
   },
   "Hopedale": {
-    "markey": 61.93,
-    "moulton": 38.07,
+    "markey": 65.93,
+    "moulton": 34.07,
     "region": "MetroWest",
     "turnout": 713
   },
@@ -840,8 +840,8 @@
     "turnout": 1679
   },
   "Ipswich": {
-    "markey": 58.17,
-    "moulton": 41.83,
+    "markey": 53.51,
+    "moulton": 46.49,
     "region": "North_Shore_Essex",
     "turnout": 2158
   },
@@ -852,8 +852,8 @@
     "turnout": 1322
   },
   "Lakeville": {
-    "markey": 56.37,
-    "moulton": 43.63,
+    "markey": 60.37,
+    "moulton": 39.63,
     "region": "South_Shore_Plymouth",
     "turnout": 1040
   },
@@ -954,14 +954,14 @@
     "turnout": 1215
   },
   "Lynn": {
-    "markey": 44.05,
-    "moulton": 55.95,
+    "markey": 39.39,
+    "moulton": 60.61,
     "region": "North_Shore_Essex",
     "turnout": 6980
   },
   "Lynnfield": {
-    "markey": 54.07,
-    "moulton": 45.93,
+    "markey": 49.41,
+    "moulton": 50.59,
     "region": "North_Shore_Essex",
     "turnout": 1345
   },
@@ -972,20 +972,20 @@
     "turnout": 6519
   },
   "Manchester-by-the-Sea": {
-    "markey": 57.5,
-    "moulton": 42.5,
+    "markey": 52.84,
+    "moulton": 47.16,
     "region": "North_Shore_Essex",
     "turnout": 871
   },
   "Mansfield": {
-    "markey": 60.71,
-    "moulton": 39.29,
+    "markey": 64.71,
+    "moulton": 35.29,
     "region": "South_Shore_Plymouth",
     "turnout": 2931
   },
   "Marblehead": {
-    "markey": 57.81,
-    "moulton": 42.19,
+    "markey": 53.15,
+    "moulton": 46.85,
     "region": "North_Shore_Essex",
     "turnout": 3577
   },
@@ -1026,8 +1026,8 @@
     "turnout": 1737
   },
   "Medfield": {
-    "markey": 70.37,
-    "moulton": 29.63,
+    "markey": 74.37,
+    "moulton": 25.63,
     "region": "MetroWest",
     "turnout": 1904
   },
@@ -1050,14 +1050,14 @@
     "turnout": 5253
   },
   "Mendon": {
-    "markey": 67.56,
-    "moulton": 32.44,
+    "markey": 71.56,
+    "moulton": 28.44,
     "region": "MetroWest",
     "turnout": 659
   },
   "Merrimac": {
-    "markey": 47.7,
-    "moulton": 52.3,
+    "markey": 43.04,
+    "moulton": 56.96,
     "region": "North_Shore_Essex",
     "turnout": 816
   },
@@ -1080,14 +1080,14 @@
     "turnout": 80
   },
   "Middleton": {
-    "markey": 46.02,
-    "moulton": 53.98,
+    "markey": 41.36,
+    "moulton": 58.64,
     "region": "North_Shore_Essex",
     "turnout": 968
   },
   "Milford": {
-    "markey": 56.38,
-    "moulton": 43.62,
+    "markey": 60.38,
+    "moulton": 39.62,
     "region": "MetroWest",
     "turnout": 2780
   },
@@ -1098,14 +1098,14 @@
     "turnout": 1313
   },
   "Millis": {
-    "markey": 66.17,
-    "moulton": 33.83,
+    "markey": 70.17,
+    "moulton": 29.83,
     "region": "MetroWest",
     "turnout": 1238
   },
   "Millville": {
-    "markey": 48.62,
-    "moulton": 51.38,
+    "markey": 52.62,
+    "moulton": 47.38,
     "region": "MetroWest",
     "turnout": 220
   },
@@ -1152,8 +1152,8 @@
     "turnout": 39
   },
   "Nahant": {
-    "markey": 56.03,
-    "moulton": 43.97,
+    "markey": 51.37,
+    "moulton": 48.63,
     "region": "North_Shore_Essex",
     "turnout": 646
   },
@@ -1170,8 +1170,8 @@
     "turnout": 5603
   },
   "Needham": {
-    "markey": 75.06,
-    "moulton": 24.94,
+    "markey": 79.06,
+    "moulton": 20.94,
     "region": "Inner_Core",
     "turnout": 5901
   },
@@ -1206,26 +1206,26 @@
     "turnout": 157
   },
   "Newbury": {
-    "markey": 54.27,
-    "moulton": 45.73,
+    "markey": 49.61,
+    "moulton": 50.39,
     "region": "North_Shore_Essex",
     "turnout": 1067
   },
   "Newburyport": {
-    "markey": 57.94,
-    "moulton": 42.06,
+    "markey": 53.28,
+    "moulton": 46.72,
     "region": "North_Shore_Essex",
     "turnout": 3298
   },
   "Newton": {
-    "markey": 79.07,
-    "moulton": 20.93,
+    "markey": 83.07,
+    "moulton": 16.93,
     "region": "Inner_Core",
     "turnout": 16995
   },
   "Norfolk": {
-    "markey": 67.24,
-    "moulton": 32.76,
+    "markey": 71.24,
+    "moulton": 28.76,
     "region": "South_Shore_Plymouth",
     "turnout": 1404
   },
@@ -1236,14 +1236,14 @@
     "turnout": 1295
   },
   "North Andover": {
-    "markey": 52.67,
-    "moulton": 47.33,
+    "markey": 48.01,
+    "moulton": 51.99,
     "region": "North_Shore_Essex",
     "turnout": 3465
   },
   "North Attleborough": {
-    "markey": 56.32,
-    "moulton": 43.68,
+    "markey": 60.32,
+    "moulton": 39.68,
     "region": "Southeastern_Bristol",
     "turnout": 2813
   },
@@ -1284,8 +1284,8 @@
     "turnout": 419
   },
   "Norton": {
-    "markey": 55.4,
-    "moulton": 44.6,
+    "markey": 59.4,
+    "moulton": 40.6,
     "region": "Southeastern_Bristol",
     "turnout": 1865
   },
@@ -1350,8 +1350,8 @@
     "turnout": 586
   },
   "Peabody": {
-    "markey": 41.42,
-    "moulton": 58.58,
+    "markey": 36.76,
+    "moulton": 63.24,
     "region": "North_Shore_Essex",
     "turnout": 5993
   },
@@ -1404,8 +1404,8 @@
     "turnout": 156
   },
   "Plainville": {
-    "markey": 58.3,
-    "moulton": 41.7,
+    "markey": 62.3,
+    "moulton": 37.7,
     "region": "South_Shore_Plymouth",
     "turnout": 963
   },
@@ -1446,8 +1446,8 @@
     "turnout": 4340
   },
   "Raynham": {
-    "markey": 54.69,
-    "moulton": 45.31,
+    "markey": 58.69,
+    "moulton": 41.31,
     "region": "South_Shore_Plymouth",
     "turnout": 1225
   },
@@ -1458,8 +1458,8 @@
     "turnout": 4396
   },
   "Rehoboth": {
-    "markey": 55.62,
-    "moulton": 44.38,
+    "markey": 59.62,
+    "moulton": 40.38,
     "region": "Southeastern_Bristol",
     "turnout": 1025
   },
@@ -1488,8 +1488,8 @@
     "turnout": 1624
   },
   "Rockport": {
-    "markey": 58.16,
-    "moulton": 41.84,
+    "markey": 53.5,
+    "moulton": 46.5,
     "region": "North_Shore_Essex",
     "turnout": 1463
   },
@@ -1500,8 +1500,8 @@
     "turnout": 65
   },
   "Rowley": {
-    "markey": 52.65,
-    "moulton": 47.35,
+    "markey": 47.99,
+    "moulton": 52.01,
     "region": "North_Shore_Essex",
     "turnout": 695
   },
@@ -1524,14 +1524,14 @@
     "turnout": 857
   },
   "Salem": {
-    "markey": 54.41,
-    "moulton": 45.59,
+    "markey": 49.75,
+    "moulton": 50.25,
     "region": "North_Shore_Essex",
     "turnout": 6191
   },
   "Salisbury": {
-    "markey": 39.07,
-    "moulton": 60.93,
+    "markey": 34.41,
+    "moulton": 65.59,
     "region": "North_Shore_Essex",
     "turnout": 950
   },
@@ -1548,8 +1548,8 @@
     "turnout": 2630
   },
   "Saugus": {
-    "markey": 43.87,
-    "moulton": 56.13,
+    "markey": 39.21,
+    "moulton": 60.79,
     "region": "North_Shore_Essex",
     "turnout": 2723
   },
@@ -1566,14 +1566,14 @@
     "turnout": 3141
   },
   "Seekonk": {
-    "markey": 56.73,
-    "moulton": 43.27,
+    "markey": 60.73,
+    "moulton": 39.27,
     "region": "Southeastern_Bristol",
     "turnout": 1280
   },
   "Sharon": {
-    "markey": 70.32,
-    "moulton": 29.68,
+    "markey": 74.32,
+    "moulton": 25.68,
     "region": "South_Shore_Plymouth",
     "turnout": 3279
   },
@@ -1590,8 +1590,8 @@
     "turnout": 385
   },
   "Sherborn": {
-    "markey": 82.81,
-    "moulton": 17.19,
+    "markey": 86.81,
+    "moulton": 13.19,
     "region": "MetroWest",
     "turnout": 763
   },
@@ -1614,8 +1614,8 @@
     "turnout": 474
   },
   "Somerset": {
-    "markey": 46.25,
-    "moulton": 53.75,
+    "markey": 50.25,
+    "moulton": 49.75,
     "region": "Southeastern_Bristol",
     "turnout": 1992
   },
@@ -1722,20 +1722,20 @@
     "turnout": 885
   },
   "Swampscott": {
-    "markey": 56.61,
-    "moulton": 43.39,
+    "markey": 51.95,
+    "moulton": 48.05,
     "region": "North_Shore_Essex",
     "turnout": 2440
   },
   "Swansea": {
-    "markey": 45.5,
-    "moulton": 54.5,
+    "markey": 49.5,
+    "moulton": 50.5,
     "region": "Southeastern_Bristol",
     "turnout": 1542
   },
   "Taunton": {
-    "markey": 46.77,
-    "moulton": 53.23,
+    "markey": 50.77,
+    "moulton": 49.23,
     "region": "Southeastern_Bristol",
     "turnout": 4449
   },
@@ -1764,8 +1764,8 @@
     "turnout": 40
   },
   "Topsfield": {
-    "markey": 54.77,
-    "moulton": 45.23,
+    "markey": 50.11,
+    "moulton": 49.89,
     "region": "North_Shore_Essex",
     "turnout": 868
   },
@@ -1878,8 +1878,8 @@
     "turnout": 1170
   },
   "Wellesley": {
-    "markey": 76.67,
-    "moulton": 23.33,
+    "markey": 80.67,
+    "moulton": 19.33,
     "region": "MetroWest",
     "turnout": 4418
   },
@@ -1896,8 +1896,8 @@
     "turnout": 29
   },
   "Wenham": {
-    "markey": 59.22,
-    "moulton": 40.78,
+    "markey": 54.56,
+    "moulton": 45.44,
     "region": "North_Shore_Essex",
     "turnout": 562
   },
@@ -1920,8 +1920,8 @@
     "turnout": 377
   },
   "West Newbury": {
-    "markey": 55.83,
-    "moulton": 44.17,
+    "markey": 51.17,
+    "moulton": 48.83,
     "region": "North_Shore_Essex",
     "turnout": 696
   },
@@ -2076,8 +2076,8 @@
     "turnout": 252
   },
   "Wrentham": {
-    "markey": 63.65,
-    "moulton": 36.35,
+    "markey": 67.65,
+    "moulton": 32.35,
     "region": "South_Shore_Plymouth",
     "turnout": 1370
   },
