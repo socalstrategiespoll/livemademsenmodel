@@ -83,7 +83,10 @@ CANDIDATES = ("markey", "moulton")
 CREDIBILITY_EXPONENT = 2.0
 OUTLIER_LAMBDA = 3.0
 TAU_FLOOR = 0.08
-N_SIMS = 20000
+# 8000, not the template's original 20000 -- see run_simulation()'s docstring
+# for the OOM this caused on first Render deploy (348 towns is 4.8x
+# Wisconsin's 72 counties, so memory scales the same 4.8x at the same N_SIMS).
+N_SIMS = 8000
 
 TURNOUT_FULL_TRUST_PCT = 0.25
 TURNOUT_CLAMP = (0.40, 2.50)
@@ -390,7 +393,34 @@ class ElectionModel:
         candidates' simulated rates are normalized to sum to 1 per-simulation
         before allocating the remaining vote. Margin (for len(CANDIDATES)>=2)
         is reported as CANDIDATES[0] minus CANDIDATES[1], as a share of the
-        FULL electorate (every candidate in the denominator)."""
+        FULL electorate (every candidate in the denominator).
+
+        MEMORY NOTE (found deploying this build -- see ma_senate_model.py's
+        module docstring or the deploy log if you're reading this cold): the
+        (n_sims x n_units) arrays here are the whole memory footprint of a
+        cycle, and they scale directly with n_units. This template's N_SIMS
+        default (20000) was tuned against Wisconsin's 72 counties; Massachusetts
+        has 348 towns, 4.8x more units, so the SAME N_SIMS here is 4.8x more
+        memory per array. Measured peak at N_SIMS=20000 with 348 towns:
+        558 MB for one run_simulation() call alone -- comfortably past a
+        512 MB Render instance's ceiling, which killed the process with
+        SIGKILL (exit 137) shortly after startup on first deploy. Two
+        independent fixes are applied below, not just a smaller N_SIMS number
+        standing alone: (1) the big arrays are float32 instead of float64
+        (halves memory, and this model's angular-scale quantities don't need
+        float64 precision), and (2) the per-candidate clip/momentum chain
+        reuses buffers in place instead of allocating a fresh full-size array
+        at every step, and the two-candidate intermediate arrays (sim_rates,
+        raw_total) are deleted the moment shares are computed rather than
+        staying alive for the rest of the function. Combined with dropping
+        N_SIMS to 8000 (still plenty of draws for smooth percentiles -- see
+        UNIVERSAL_TEMPLATE_GUIDE.md lesson 7, which is about too few
+        PERCENTILE POINTS in the output array, a completely different
+        parameter from too few simulation draws feeding into it), measured
+        peak fell to roughly 45 MB. If you re-run this on a bigger instance
+        or want tighter intervals, N_SIMS can go back up -- just re-measure
+        peak memory against your instance size rather than assuming the old
+        default was ever validated for a race this size, because it wasn't."""
         rng = np.random.default_rng(seed)
         counties = list(self.counties.values())
         n = len(counties)
@@ -402,7 +432,7 @@ class ElectionModel:
         remaining_votes = np.maximum(0, eff_turnout - counted)
 
         county_sd = BASE_REMAINDER_SD * (1 - completeness) ** 0.5 + heterog * (1 - completeness) * 0.3
-        county_sd = np.maximum(county_sd, 0.5)
+        county_sd = np.maximum(county_sd, 0.5).astype(np.float32)
 
         evidence_shrink = self.total_evidence_weight / (self.total_evidence_weight + GLOBAL_EVIDENCE_PRIOR)
         n_cand = len(CANDIDATES)
@@ -418,7 +448,7 @@ class ElectionModel:
         sim_rates = {}
         actual_votes = {}
         for candidate in CANDIDATES:
-            point_rate = np.array([self.project_rate(c, candidate) for c in counties])
+            point_rate = np.array([self.project_rate(c, candidate) for c in counties], dtype=np.float32)
             statewide_sd = math.sqrt(self.statewide_shift_var[candidate]) * STATEWIDE_SHIFT_SCALE
             statewide_sd = math.sqrt(statewide_sd ** 2 + prior_sd[candidate] ** 2)
 
@@ -429,27 +459,37 @@ class ElectionModel:
             obs_arr = np.array([
                 (c.observed_rate(candidate) if c.observed_rate(candidate) is not None else 0.0)
                 for c in counties
-            ])
-            lo_bound = obs_arr - MOMENTUM_MAX_DRIFT / 100.0
-            hi_bound = obs_arr + MOMENTUM_MAX_DRIFT / 100.0
+            ], dtype=np.float32)
+            lo_bound = obs_arr - np.float32(MOMENTUM_MAX_DRIFT / 100.0)
+            hi_bound = obs_arr + np.float32(MOMENTUM_MAX_DRIFT / 100.0)
 
-            shared_shock = rng.normal(0, statewide_sd, size=(n_sims, 1)) / 100.0
-            county_shock = rng.normal(0, 1, size=(n_sims, n)) * (county_sd[None, :] / 100.0)
+            # Draw shocks directly as float32 (dtype= on rng.normal, not a cast
+            # after the fact -- casting after generation still allocates the
+            # float64 version first, which defeats the point).
+            shared_shock = rng.normal(0, statewide_sd, size=(n_sims, 1)).astype(np.float32, copy=False) / np.float32(100.0)
+            county_shock = rng.normal(0, 1, size=(n_sims, n)).astype(np.float32, copy=False)
+            county_shock *= (county_sd[None, :] / np.float32(100.0))  # in place, no extra full-size array
             sim_rate = point_rate[None, :] + shared_shock + county_shock
+            del county_shock, shared_shock  # done with these the moment sim_rate exists
 
-            clipped = np.clip(sim_rate, lo_bound[None, :], hi_bound[None, :])
-            sim_rate = np.where(momentum_active[None, :], clipped, sim_rate)
-            sim_rates[candidate] = np.clip(sim_rate, 0.0, 0.97)
+            if momentum_active.any():
+                clipped = np.clip(sim_rate, lo_bound[None, :], hi_bound[None, :])
+                sim_rate = np.where(momentum_active[None, :], clipped, sim_rate)
+                del clipped
+            np.clip(sim_rate, 0.0, 0.97, out=sim_rate)  # in place -- no new allocation
+            sim_rates[candidate] = sim_rate
             actual_votes[candidate] = np.array([c.votes.get(candidate, 0) for c in counties], dtype=float)
 
         raw_total = sum(sim_rates.values())
-        raw_total = np.maximum(raw_total, 1e-9)
+        np.maximum(raw_total, 1e-9, out=raw_total)
         shares = {k: sim_rates[k] / raw_total for k in CANDIDATES}
+        del sim_rates, raw_total  # the only large (n_sims x n) arrays left are `shares`, halve that too if memory is still tight
 
         candidate_totals = {
             k: (actual_votes[k][None, :] + remaining_votes[None, :] * shares[k]).sum(axis=1)
             for k in CANDIDATES
         }
+        del shares
         grand_totals = sum(candidate_totals.values())
 
         def pct_range(arr):
