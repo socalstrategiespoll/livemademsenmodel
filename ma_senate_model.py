@@ -233,11 +233,28 @@ class ElectionModel:
     # ------------------------------------------------------------
     def update_county(self, name: str, votes: Dict[str, int], pct_reporting: float):
         """votes: {candidate: vote_count} for ALL candidates in CANDIDATES.
-        Missing keys are treated as 0."""
+        Missing keys are treated as 0.
+
+        GUARD: civicAPI's percent_reporting is documented (ma_civicapi_feed.py)
+        as a precinct metric, not a vote-completeness metric, and unverified
+        for this specific feed -- it can plausibly lag actual vote posting,
+        arriving as 0 or missing even after real votes are in. Trusting that
+        literally would be a real bug: credibility (below) returns exactly
+        0.0 whenever pct_reporting<=0, which would make project_rate() and
+        _recompute_shifts() throw out this town's real votes entirely and
+        treat it as if nothing had reported, and _recalibrate_turnout()'s
+        zero-reporting branch would overwrite its turnout with the statewide
+        median ratio despite already knowing better. If real votes are in but
+        the feed still says 0%, fall back to a vote-implied completeness
+        estimate (counted / this town's own baseline turnout, clamped to a
+        sane 1-99% band) instead of literal 0 -- partial credibility from a
+        real number beats zero credibility from a stale field."""
         c = self.counties[name]
         c.votes = {k: votes.get(k, 0) for k in CANDIDATES}
         c.counted_votes = sum(c.votes.values())
-        c.pct_reporting = pct_reporting
+        if (pct_reporting is None or pct_reporting <= 0) and c.counted_votes > 0:
+            pct_reporting = min(0.99, max(0.01, c.counted_votes / c.expected_turnout))
+        c.pct_reporting = pct_reporting or 0.0
         if c.counted_votes > 0:
             c.observed_rate_ = {k: c.votes[k] / c.counted_votes for k in CANDIDATES}
         self._recalibrate_turnout()
