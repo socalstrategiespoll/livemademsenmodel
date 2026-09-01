@@ -1,0 +1,2090 @@
+{
+  "Abington": {
+    "markey": 53.41,
+    "moulton": 46.59,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1637
+  },
+  "Acton": {
+    "markey": 78.01,
+    "moulton": 21.99,
+    "region": "MetroWest",
+    "turnout": 3908
+  },
+  "Acushnet": {
+    "markey": 38.97,
+    "moulton": 61.03,
+    "region": "Southeastern_Bristol",
+    "turnout": 722
+  },
+  "Adams": {
+    "markey": 51.7,
+    "moulton": 48.3,
+    "region": "Western_Mass",
+    "turnout": 953
+  },
+  "Agawam": {
+    "markey": 47.51,
+    "moulton": 52.49,
+    "region": "Western_Mass",
+    "turnout": 2828
+  },
+  "Alford": {
+    "markey": 81.28,
+    "moulton": 18.72,
+    "region": "Western_Mass",
+    "turnout": 109
+  },
+  "Amesbury": {
+    "markey": 61.86,
+    "moulton": 38.14,
+    "region": "North_Shore_Essex",
+    "turnout": 2192
+  },
+  "Amherst": {
+    "markey": 87.95,
+    "moulton": 12.05,
+    "region": "Western_Mass",
+    "turnout": 3904
+  },
+  "Andover": {
+    "markey": 66.0,
+    "moulton": 34.0,
+    "region": "North_Shore_Essex",
+    "turnout": 4522
+  },
+  "Aquinnah": {
+    "markey": 74.61,
+    "moulton": 25.39,
+    "region": "Cape_Islands",
+    "turnout": 106
+  },
+  "Arlington": {
+    "markey": 83.4,
+    "moulton": 16.6,
+    "region": "Inner_Core",
+    "turnout": 9713
+  },
+  "Ashburnham": {
+    "markey": 58.35,
+    "moulton": 41.65,
+    "region": "Central_Worcester",
+    "turnout": 638
+  },
+  "Ashby": {
+    "markey": 60.33,
+    "moulton": 39.67,
+    "region": "Merrimack_Valley",
+    "turnout": 324
+  },
+  "Ashfield": {
+    "markey": 79.19,
+    "moulton": 20.81,
+    "region": "Western_Mass",
+    "turnout": 408
+  },
+  "Ashland": {
+    "markey": 64.27,
+    "moulton": 35.73,
+    "region": "MetroWest",
+    "turnout": 2319
+  },
+  "Athol": {
+    "markey": 46.12,
+    "moulton": 53.88,
+    "region": "Central_Worcester",
+    "turnout": 776
+  },
+  "Attleboro": {
+    "markey": 48.04,
+    "moulton": 51.96,
+    "region": "Southeastern_Bristol",
+    "turnout": 4034
+  },
+  "Auburn": {
+    "markey": 51.16,
+    "moulton": 48.84,
+    "region": "Central_Worcester",
+    "turnout": 1921
+  },
+  "Avon": {
+    "markey": 47.02,
+    "moulton": 52.98,
+    "region": "Inner_Core",
+    "turnout": 539
+  },
+  "Ayer": {
+    "markey": 59.42,
+    "moulton": 40.58,
+    "region": "Merrimack_Valley",
+    "turnout": 967
+  },
+  "Barnstable": {
+    "markey": 54.63,
+    "moulton": 45.37,
+    "region": "Cape_Islands",
+    "turnout": 5622
+  },
+  "Barre": {
+    "markey": 52.14,
+    "moulton": 47.86,
+    "region": "Central_Worcester",
+    "turnout": 478
+  },
+  "Becket": {
+    "markey": 60.45,
+    "moulton": 39.55,
+    "region": "Western_Mass",
+    "turnout": 245
+  },
+  "Bedford": {
+    "markey": 74.54,
+    "moulton": 25.46,
+    "region": "MetroWest",
+    "turnout": 2225
+  },
+  "Belchertown": {
+    "markey": 62.68,
+    "moulton": 37.32,
+    "region": "Western_Mass",
+    "turnout": 1992
+  },
+  "Bellingham": {
+    "markey": 52.8,
+    "moulton": 47.2,
+    "region": "MetroWest",
+    "turnout": 1532
+  },
+  "Belmont": {
+    "markey": 81.5,
+    "moulton": 18.5,
+    "region": "Inner_Core",
+    "turnout": 4597
+  },
+  "Berkley": {
+    "markey": 46.4,
+    "moulton": 53.6,
+    "region": "Southeastern_Bristol",
+    "turnout": 543
+  },
+  "Berlin": {
+    "markey": 67.12,
+    "moulton": 32.88,
+    "region": "MetroWest",
+    "turnout": 468
+  },
+  "Bernardston": {
+    "markey": 52.97,
+    "moulton": 47.03,
+    "region": "Western_Mass",
+    "turnout": 320
+  },
+  "Beverly": {
+    "markey": 61.93,
+    "moulton": 38.07,
+    "region": "North_Shore_Essex",
+    "turnout": 5581
+  },
+  "Billerica": {
+    "markey": 57.54,
+    "moulton": 42.46,
+    "region": "Merrimack_Valley",
+    "turnout": 4223
+  },
+  "Blackstone": {
+    "markey": 50.9,
+    "moulton": 49.1,
+    "region": "MetroWest",
+    "turnout": 660
+  },
+  "Blandford": {
+    "markey": 57.4,
+    "moulton": 42.6,
+    "region": "Western_Mass",
+    "turnout": 120
+  },
+  "Bolton": {
+    "markey": 72.47,
+    "moulton": 27.53,
+    "region": "MetroWest",
+    "turnout": 820
+  },
+  "Boston": {
+    "markey": 66.3,
+    "moulton": 33.7,
+    "region": "Boston",
+    "turnout": 75190
+  },
+  "Bourne": {
+    "markey": 55.9,
+    "moulton": 44.1,
+    "region": "Cape_Islands",
+    "turnout": 2138
+  },
+  "Boxborough": {
+    "markey": 76.13,
+    "moulton": 23.87,
+    "region": "MetroWest",
+    "turnout": 905
+  },
+  "Boxford": {
+    "markey": 64.82,
+    "moulton": 35.18,
+    "region": "North_Shore_Essex",
+    "turnout": 1040
+  },
+  "Boylston": {
+    "markey": 57.86,
+    "moulton": 42.14,
+    "region": "Central_Worcester",
+    "turnout": 634
+  },
+  "Braintree": {
+    "markey": 56.16,
+    "moulton": 43.84,
+    "region": "Inner_Core",
+    "turnout": 4687
+  },
+  "Brewster": {
+    "markey": 67.54,
+    "moulton": 32.46,
+    "region": "Cape_Islands",
+    "turnout": 1805
+  },
+  "Bridgewater": {
+    "markey": 52.54,
+    "moulton": 47.46,
+    "region": "South_Shore_Plymouth",
+    "turnout": 2286
+  },
+  "Brimfield": {
+    "markey": 53.96,
+    "moulton": 46.04,
+    "region": "Western_Mass",
+    "turnout": 351
+  },
+  "Brockton": {
+    "markey": 42.71,
+    "moulton": 57.29,
+    "region": "South_Shore_Plymouth",
+    "turnout": 8287
+  },
+  "Brookfield": {
+    "markey": 56.37,
+    "moulton": 43.63,
+    "region": "Central_Worcester",
+    "turnout": 290
+  },
+  "Brookline": {
+    "markey": 80.39,
+    "moulton": 19.61,
+    "region": "Inner_Core",
+    "turnout": 10366
+  },
+  "Buckland": {
+    "markey": 71.81,
+    "moulton": 28.19,
+    "region": "Western_Mass",
+    "turnout": 378
+  },
+  "Burlington": {
+    "markey": 57.89,
+    "moulton": 42.11,
+    "region": "MetroWest",
+    "turnout": 3196
+  },
+  "Cambridge": {
+    "markey": 85.5,
+    "moulton": 14.5,
+    "region": "Inner_Core",
+    "turnout": 18167
+  },
+  "Canton": {
+    "markey": 57.98,
+    "moulton": 42.02,
+    "region": "Inner_Core",
+    "turnout": 3440
+  },
+  "Carlisle": {
+    "markey": 63.77,
+    "moulton": 36.23,
+    "region": "MetroWest",
+    "turnout": 816
+  },
+  "Carver": {
+    "markey": 46.51,
+    "moulton": 53.49,
+    "region": "South_Shore_Plymouth",
+    "turnout": 973
+  },
+  "Charlemont": {
+    "markey": 60.03,
+    "moulton": 39.97,
+    "region": "Western_Mass",
+    "turnout": 181
+  },
+  "Charlton": {
+    "markey": 51.89,
+    "moulton": 48.11,
+    "region": "Central_Worcester",
+    "turnout": 1101
+  },
+  "Chatham": {
+    "markey": 64.77,
+    "moulton": 35.23,
+    "region": "Cape_Islands",
+    "turnout": 1057
+  },
+  "Chelmsford": {
+    "markey": 63.12,
+    "moulton": 36.88,
+    "region": "Merrimack_Valley",
+    "turnout": 4737
+  },
+  "Chelsea": {
+    "markey": 54.25,
+    "moulton": 45.75,
+    "region": "Inner_Core",
+    "turnout": 2313
+  },
+  "Cheshire": {
+    "markey": 56.19,
+    "moulton": 43.81,
+    "region": "Western_Mass",
+    "turnout": 361
+  },
+  "Chester": {
+    "markey": 45.84,
+    "moulton": 54.16,
+    "region": "Western_Mass",
+    "turnout": 126
+  },
+  "Chesterfield": {
+    "markey": 60.78,
+    "moulton": 39.22,
+    "region": "Western_Mass",
+    "turnout": 226
+  },
+  "Chicopee": {
+    "markey": 44.49,
+    "moulton": 55.51,
+    "region": "Western_Mass",
+    "turnout": 5681
+  },
+  "Chilmark": {
+    "markey": 80.99,
+    "moulton": 19.01,
+    "region": "Cape_Islands",
+    "turnout": 295
+  },
+  "Clarksburg": {
+    "markey": 48.34,
+    "moulton": 51.66,
+    "region": "Western_Mass",
+    "turnout": 174
+  },
+  "Clinton": {
+    "markey": 48.87,
+    "moulton": 51.13,
+    "region": "Central_Worcester",
+    "turnout": 1587
+  },
+  "Cohasset": {
+    "markey": 63.96,
+    "moulton": 36.04,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1227
+  },
+  "Colrain": {
+    "markey": 66.63,
+    "moulton": 33.37,
+    "region": "Western_Mass",
+    "turnout": 253
+  },
+  "Concord": {
+    "markey": 80.04,
+    "moulton": 19.96,
+    "region": "MetroWest",
+    "turnout": 3813
+  },
+  "Conway": {
+    "markey": 80.96,
+    "moulton": 19.04,
+    "region": "Western_Mass",
+    "turnout": 425
+  },
+  "Cummington": {
+    "markey": 78.19,
+    "moulton": 21.81,
+    "region": "Western_Mass",
+    "turnout": 187
+  },
+  "Dalton": {
+    "markey": 57.2,
+    "moulton": 42.8,
+    "region": "Western_Mass",
+    "turnout": 880
+  },
+  "Danvers": {
+    "markey": 53.14,
+    "moulton": 46.86,
+    "region": "North_Shore_Essex",
+    "turnout": 3238
+  },
+  "Dartmouth": {
+    "markey": 49.58,
+    "moulton": 50.42,
+    "region": "Southeastern_Bristol",
+    "turnout": 3374
+  },
+  "Dedham": {
+    "markey": 60.29,
+    "moulton": 39.71,
+    "region": "Inner_Core",
+    "turnout": 4168
+  },
+  "Deerfield": {
+    "markey": 65.78,
+    "moulton": 34.22,
+    "region": "Western_Mass",
+    "turnout": 908
+  },
+  "Dennis": {
+    "markey": 55.93,
+    "moulton": 44.07,
+    "region": "Cape_Islands",
+    "turnout": 2282
+  },
+  "Dighton": {
+    "markey": 44.18,
+    "moulton": 55.82,
+    "region": "Southeastern_Bristol",
+    "turnout": 665
+  },
+  "Douglas": {
+    "markey": 51.59,
+    "moulton": 48.41,
+    "region": "Central_Worcester",
+    "turnout": 671
+  },
+  "Dover": {
+    "markey": 68.8,
+    "moulton": 31.2,
+    "region": "MetroWest",
+    "turnout": 931
+  },
+  "Dracut": {
+    "markey": 47.94,
+    "moulton": 52.06,
+    "region": "Merrimack_Valley",
+    "turnout": 2876
+  },
+  "Dudley": {
+    "markey": 45.24,
+    "moulton": 54.76,
+    "region": "Central_Worcester",
+    "turnout": 885
+  },
+  "Dunstable": {
+    "markey": 63.8,
+    "moulton": 36.2,
+    "region": "Merrimack_Valley",
+    "turnout": 406
+  },
+  "Duxbury": {
+    "markey": 63.3,
+    "moulton": 36.7,
+    "region": "South_Shore_Plymouth",
+    "turnout": 2127
+  },
+  "East Bridgewater": {
+    "markey": 53.07,
+    "moulton": 46.93,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1293
+  },
+  "East Brookfield": {
+    "markey": 49.07,
+    "moulton": 50.93,
+    "region": "Central_Worcester",
+    "turnout": 198
+  },
+  "East Longmeadow": {
+    "markey": 52.5,
+    "moulton": 47.5,
+    "region": "Western_Mass",
+    "turnout": 1983
+  },
+  "Eastham": {
+    "markey": 64.32,
+    "moulton": 35.68,
+    "region": "Cape_Islands",
+    "turnout": 1062
+  },
+  "Easthampton": {
+    "markey": 69.55,
+    "moulton": 30.45,
+    "region": "Western_Mass",
+    "turnout": 3329
+  },
+  "Easton": {
+    "markey": 48.7,
+    "moulton": 51.3,
+    "region": "South_Shore_Plymouth",
+    "turnout": 2718
+  },
+  "Edgartown": {
+    "markey": 68.55,
+    "moulton": 31.45,
+    "region": "Cape_Islands",
+    "turnout": 611
+  },
+  "Egremont": {
+    "markey": 76.18,
+    "moulton": 23.82,
+    "region": "Western_Mass",
+    "turnout": 319
+  },
+  "Erving": {
+    "markey": 50.74,
+    "moulton": 49.26,
+    "region": "Western_Mass",
+    "turnout": 185
+  },
+  "Essex": {
+    "markey": 60.76,
+    "moulton": 39.24,
+    "region": "North_Shore_Essex",
+    "turnout": 565
+  },
+  "Everett": {
+    "markey": 60.0,
+    "moulton": 40.0,
+    "region": "Inner_Core",
+    "turnout": 3372
+  },
+  "Fairhaven": {
+    "markey": 47.24,
+    "moulton": 52.76,
+    "region": "Southeastern_Bristol",
+    "turnout": 1782
+  },
+  "Fall River": {
+    "markey": 34.64,
+    "moulton": 65.36,
+    "region": "Southeastern_Bristol",
+    "turnout": 5852
+  },
+  "Falmouth": {
+    "markey": 62.54,
+    "moulton": 37.46,
+    "region": "Cape_Islands",
+    "turnout": 5145
+  },
+  "Fitchburg": {
+    "markey": 47.22,
+    "moulton": 52.78,
+    "region": "Central_Worcester",
+    "turnout": 2837
+  },
+  "Florida": {
+    "markey": 47.19,
+    "moulton": 52.81,
+    "region": "Western_Mass",
+    "turnout": 67
+  },
+  "Foxborough": {
+    "markey": 56.32,
+    "moulton": 43.68,
+    "region": "South_Shore_Plymouth",
+    "turnout": 2234
+  },
+  "Framingham": {
+    "markey": 66.77,
+    "moulton": 33.23,
+    "region": "MetroWest",
+    "turnout": 8216
+  },
+  "Freetown": {
+    "markey": 44.05,
+    "moulton": 55.95,
+    "region": "Southeastern_Bristol",
+    "turnout": 817
+  },
+  "Gardner": {
+    "markey": 44.51,
+    "moulton": 55.49,
+    "region": "Central_Worcester",
+    "turnout": 1590
+  },
+  "Georgetown": {
+    "markey": 56.68,
+    "moulton": 43.32,
+    "region": "North_Shore_Essex",
+    "turnout": 969
+  },
+  "Gill": {
+    "markey": 65.22,
+    "moulton": 34.78,
+    "region": "Western_Mass",
+    "turnout": 247
+  },
+  "Gloucester": {
+    "markey": 60.31,
+    "moulton": 39.69,
+    "region": "North_Shore_Essex",
+    "turnout": 4132
+  },
+  "Goshen": {
+    "markey": 70.89,
+    "moulton": 29.11,
+    "region": "Western_Mass",
+    "turnout": 181
+  },
+  "Gosnold": {
+    "markey": 71.19,
+    "moulton": 28.81,
+    "region": "Cape_Islands",
+    "turnout": 18
+  },
+  "Grafton": {
+    "markey": 59.39,
+    "moulton": 40.61,
+    "region": "MetroWest",
+    "turnout": 2084
+  },
+  "Granby": {
+    "markey": 52.55,
+    "moulton": 47.45,
+    "region": "Western_Mass",
+    "turnout": 828
+  },
+  "Granville": {
+    "markey": 57.33,
+    "moulton": 42.67,
+    "region": "Western_Mass",
+    "turnout": 131
+  },
+  "Great Barrington": {
+    "markey": 75.18,
+    "moulton": 24.82,
+    "region": "Western_Mass",
+    "turnout": 1214
+  },
+  "Greenfield": {
+    "markey": 65.07,
+    "moulton": 34.93,
+    "region": "Western_Mass",
+    "turnout": 2534
+  },
+  "Groton": {
+    "markey": 71.76,
+    "moulton": 28.24,
+    "region": "Merrimack_Valley",
+    "turnout": 2604
+  },
+  "Groveland": {
+    "markey": 54.9,
+    "moulton": 45.1,
+    "region": "North_Shore_Essex",
+    "turnout": 792
+  },
+  "Hadley": {
+    "markey": 73.05,
+    "moulton": 26.95,
+    "region": "Western_Mass",
+    "turnout": 932
+  },
+  "Halifax": {
+    "markey": 51.28,
+    "moulton": 48.72,
+    "region": "South_Shore_Plymouth",
+    "turnout": 756
+  },
+  "Hamilton": {
+    "markey": 66.66,
+    "moulton": 33.34,
+    "region": "North_Shore_Essex",
+    "turnout": 1098
+  },
+  "Hampden": {
+    "markey": 54.47,
+    "moulton": 45.53,
+    "region": "Western_Mass",
+    "turnout": 565
+  },
+  "Hancock": {
+    "markey": 68.61,
+    "moulton": 31.39,
+    "region": "Western_Mass",
+    "turnout": 78
+  },
+  "Hanover": {
+    "markey": 53.15,
+    "moulton": 46.85,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1667
+  },
+  "Hanson": {
+    "markey": 56.4,
+    "moulton": 43.6,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1046
+  },
+  "Hardwick": {
+    "markey": 54.68,
+    "moulton": 45.32,
+    "region": "Central_Worcester",
+    "turnout": 247
+  },
+  "Harvard": {
+    "markey": 79.74,
+    "moulton": 20.26,
+    "region": "MetroWest",
+    "turnout": 1067
+  },
+  "Harwich": {
+    "markey": 59.65,
+    "moulton": 40.35,
+    "region": "Cape_Islands",
+    "turnout": 2071
+  },
+  "Hatfield": {
+    "markey": 65.5,
+    "moulton": 34.5,
+    "region": "Western_Mass",
+    "turnout": 610
+  },
+  "Haverhill": {
+    "markey": 51.02,
+    "moulton": 48.98,
+    "region": "North_Shore_Essex",
+    "turnout": 5640
+  },
+  "Hawley": {
+    "markey": 67.54,
+    "moulton": 32.46,
+    "region": "Western_Mass",
+    "turnout": 67
+  },
+  "Heath": {
+    "markey": 78.87,
+    "moulton": 21.13,
+    "region": "Western_Mass",
+    "turnout": 108
+  },
+  "Hingham": {
+    "markey": 63.8,
+    "moulton": 36.2,
+    "region": "South_Shore_Plymouth",
+    "turnout": 3508
+  },
+  "Hinsdale": {
+    "markey": 52.51,
+    "moulton": 47.49,
+    "region": "Western_Mass",
+    "turnout": 264
+  },
+  "Holbrook": {
+    "markey": 49.99,
+    "moulton": 50.01,
+    "region": "Inner_Core",
+    "turnout": 1259
+  },
+  "Holden": {
+    "markey": 58.85,
+    "moulton": 41.15,
+    "region": "Central_Worcester",
+    "turnout": 2373
+  },
+  "Holliston": {
+    "markey": 65.41,
+    "moulton": 34.59,
+    "region": "MetroWest",
+    "turnout": 2254
+  },
+  "Holyoke": {
+    "markey": 52.8,
+    "moulton": 47.2,
+    "region": "Western_Mass",
+    "turnout": 4720
+  },
+  "Hopedale": {
+    "markey": 57.93,
+    "moulton": 42.07,
+    "region": "MetroWest",
+    "turnout": 713
+  },
+  "Hopkinton": {
+    "markey": 60.08,
+    "moulton": 39.92,
+    "region": "MetroWest",
+    "turnout": 2174
+  },
+  "Hubbardston": {
+    "markey": 48.04,
+    "moulton": 51.96,
+    "region": "Central_Worcester",
+    "turnout": 449
+  },
+  "Hudson": {
+    "markey": 58.45,
+    "moulton": 41.55,
+    "region": "MetroWest",
+    "turnout": 2467
+  },
+  "Hull": {
+    "markey": 59.93,
+    "moulton": 40.07,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1679
+  },
+  "Ipswich": {
+    "markey": 65.97,
+    "moulton": 34.03,
+    "region": "North_Shore_Essex",
+    "turnout": 2158
+  },
+  "Kingston": {
+    "markey": 58.34,
+    "moulton": 41.66,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1322
+  },
+  "Lakeville": {
+    "markey": 52.37,
+    "moulton": 47.63,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1040
+  },
+  "Lancaster": {
+    "markey": 60.98,
+    "moulton": 39.02,
+    "region": "Central_Worcester",
+    "turnout": 853
+  },
+  "Lanesborough": {
+    "markey": 65.03,
+    "moulton": 34.97,
+    "region": "Western_Mass",
+    "turnout": 374
+  },
+  "Lawrence": {
+    "markey": 34.21,
+    "moulton": 65.79,
+    "region": "Merrimack_Valley",
+    "turnout": 4533
+  },
+  "Lee": {
+    "markey": 63.77,
+    "moulton": 36.23,
+    "region": "Western_Mass",
+    "turnout": 816
+  },
+  "Leicester": {
+    "markey": 48.74,
+    "moulton": 51.26,
+    "region": "Central_Worcester",
+    "turnout": 1104
+  },
+  "Lenox": {
+    "markey": 70.41,
+    "moulton": 29.59,
+    "region": "Western_Mass",
+    "turnout": 1032
+  },
+  "Leominster": {
+    "markey": 49.49,
+    "moulton": 50.51,
+    "region": "Central_Worcester",
+    "turnout": 3460
+  },
+  "Leverett": {
+    "markey": 89.08,
+    "moulton": 10.92,
+    "region": "Western_Mass",
+    "turnout": 470
+  },
+  "Lexington": {
+    "markey": 82.54,
+    "moulton": 17.46,
+    "region": "MetroWest",
+    "turnout": 6120
+  },
+  "Leyden": {
+    "markey": 64.49,
+    "moulton": 35.51,
+    "region": "Western_Mass",
+    "turnout": 148
+  },
+  "Lincoln": {
+    "markey": 82.57,
+    "moulton": 17.43,
+    "region": "MetroWest",
+    "turnout": 1372
+  },
+  "Littleton": {
+    "markey": 71.13,
+    "moulton": 28.87,
+    "region": "MetroWest",
+    "turnout": 1546
+  },
+  "Longmeadow": {
+    "markey": 65.27,
+    "moulton": 34.73,
+    "region": "Western_Mass",
+    "turnout": 2490
+  },
+  "Lowell": {
+    "markey": 54.23,
+    "moulton": 45.77,
+    "region": "Merrimack_Valley",
+    "turnout": 7397
+  },
+  "Ludlow": {
+    "markey": 46.33,
+    "moulton": 53.67,
+    "region": "Western_Mass",
+    "turnout": 2230
+  },
+  "Lunenburg": {
+    "markey": 61.79,
+    "moulton": 38.21,
+    "region": "Central_Worcester",
+    "turnout": 1215
+  },
+  "Lynn": {
+    "markey": 51.85,
+    "moulton": 48.15,
+    "region": "North_Shore_Essex",
+    "turnout": 6980
+  },
+  "Lynnfield": {
+    "markey": 61.87,
+    "moulton": 38.13,
+    "region": "North_Shore_Essex",
+    "turnout": 1345
+  },
+  "Malden": {
+    "markey": 75.85,
+    "moulton": 24.15,
+    "region": "Inner_Core",
+    "turnout": 6519
+  },
+  "Manchester-by-the-Sea": {
+    "markey": 65.3,
+    "moulton": 34.7,
+    "region": "North_Shore_Essex",
+    "turnout": 871
+  },
+  "Mansfield": {
+    "markey": 56.71,
+    "moulton": 43.29,
+    "region": "South_Shore_Plymouth",
+    "turnout": 2931
+  },
+  "Marblehead": {
+    "markey": 65.61,
+    "moulton": 34.39,
+    "region": "North_Shore_Essex",
+    "turnout": 3577
+  },
+  "Marion": {
+    "markey": 62.9,
+    "moulton": 37.1,
+    "region": "Southeastern_Bristol",
+    "turnout": 785
+  },
+  "Marlborough": {
+    "markey": 59.36,
+    "moulton": 40.64,
+    "region": "MetroWest",
+    "turnout": 3968
+  },
+  "Marshfield": {
+    "markey": 60.86,
+    "moulton": 39.14,
+    "region": "South_Shore_Plymouth",
+    "turnout": 3449
+  },
+  "Mashpee": {
+    "markey": 52.59,
+    "moulton": 47.41,
+    "region": "Cape_Islands",
+    "turnout": 2111
+  },
+  "Mattapoisett": {
+    "markey": 57.77,
+    "moulton": 42.23,
+    "region": "Southeastern_Bristol",
+    "turnout": 979
+  },
+  "Maynard": {
+    "markey": 73.44,
+    "moulton": 26.56,
+    "region": "MetroWest",
+    "turnout": 1737
+  },
+  "Medfield": {
+    "markey": 66.37,
+    "moulton": 33.63,
+    "region": "MetroWest",
+    "turnout": 1904
+  },
+  "Medford": {
+    "markey": 77.29,
+    "moulton": 22.71,
+    "region": "Inner_Core",
+    "turnout": 8551
+  },
+  "Medway": {
+    "markey": 53.8,
+    "moulton": 46.2,
+    "region": "MetroWest",
+    "turnout": 1730
+  },
+  "Melrose": {
+    "markey": 73.81,
+    "moulton": 26.19,
+    "region": "Inner_Core",
+    "turnout": 5253
+  },
+  "Mendon": {
+    "markey": 63.56,
+    "moulton": 36.44,
+    "region": "MetroWest",
+    "turnout": 659
+  },
+  "Merrimac": {
+    "markey": 55.5,
+    "moulton": 44.5,
+    "region": "North_Shore_Essex",
+    "turnout": 816
+  },
+  "Methuen": {
+    "markey": 45.71,
+    "moulton": 54.29,
+    "region": "Merrimack_Valley",
+    "turnout": 4235
+  },
+  "Middleborough": {
+    "markey": 49.57,
+    "moulton": 50.43,
+    "region": "South_Shore_Plymouth",
+    "turnout": 2003
+  },
+  "Middlefield": {
+    "markey": 70.7,
+    "moulton": 29.3,
+    "region": "Western_Mass",
+    "turnout": 80
+  },
+  "Middleton": {
+    "markey": 53.82,
+    "moulton": 46.18,
+    "region": "North_Shore_Essex",
+    "turnout": 968
+  },
+  "Milford": {
+    "markey": 52.38,
+    "moulton": 47.62,
+    "region": "MetroWest",
+    "turnout": 2780
+  },
+  "Millbury": {
+    "markey": 49.49,
+    "moulton": 50.51,
+    "region": "Central_Worcester",
+    "turnout": 1313
+  },
+  "Millis": {
+    "markey": 62.17,
+    "moulton": 37.83,
+    "region": "MetroWest",
+    "turnout": 1238
+  },
+  "Millville": {
+    "markey": 44.62,
+    "moulton": 55.38,
+    "region": "MetroWest",
+    "turnout": 220
+  },
+  "Milton": {
+    "markey": 62.62,
+    "moulton": 37.38,
+    "region": "Inner_Core",
+    "turnout": 5077
+  },
+  "Monroe": {
+    "markey": 70.96,
+    "moulton": 29.04,
+    "region": "Western_Mass",
+    "turnout": 8
+  },
+  "Monson": {
+    "markey": 50.71,
+    "moulton": 49.29,
+    "region": "Western_Mass",
+    "turnout": 1009
+  },
+  "Montague": {
+    "markey": 64.15,
+    "moulton": 35.85,
+    "region": "Western_Mass",
+    "turnout": 1276
+  },
+  "Monterey": {
+    "markey": 74.25,
+    "moulton": 25.75,
+    "region": "Western_Mass",
+    "turnout": 169
+  },
+  "Montgomery": {
+    "markey": 56.67,
+    "moulton": 43.33,
+    "region": "Western_Mass",
+    "turnout": 102
+  },
+  "Mount Washington": {
+    "markey": 74.32,
+    "moulton": 25.68,
+    "region": "Western_Mass",
+    "turnout": 39
+  },
+  "Nahant": {
+    "markey": 63.83,
+    "moulton": 36.17,
+    "region": "North_Shore_Essex",
+    "turnout": 646
+  },
+  "Nantucket": {
+    "markey": 65.59,
+    "moulton": 34.41,
+    "region": "Cape_Islands",
+    "turnout": 1232
+  },
+  "Natick": {
+    "markey": 69.63,
+    "moulton": 30.37,
+    "region": "MetroWest",
+    "turnout": 5603
+  },
+  "Needham": {
+    "markey": 71.06,
+    "moulton": 28.94,
+    "region": "Inner_Core",
+    "turnout": 5901
+  },
+  "New Ashford": {
+    "markey": 62.81,
+    "moulton": 37.19,
+    "region": "Western_Mass",
+    "turnout": 33
+  },
+  "New Bedford": {
+    "markey": 39.07,
+    "moulton": 60.93,
+    "region": "Southeastern_Bristol",
+    "turnout": 6720
+  },
+  "New Braintree": {
+    "markey": 59.45,
+    "moulton": 40.55,
+    "region": "Central_Worcester",
+    "turnout": 104
+  },
+  "New Marlborough": {
+    "markey": 73.34,
+    "moulton": 26.66,
+    "region": "Western_Mass",
+    "turnout": 233
+  },
+  "New Salem": {
+    "markey": 72.85,
+    "moulton": 27.15,
+    "region": "Western_Mass",
+    "turnout": 157
+  },
+  "Newbury": {
+    "markey": 62.07,
+    "moulton": 37.93,
+    "region": "North_Shore_Essex",
+    "turnout": 1067
+  },
+  "Newburyport": {
+    "markey": 65.74,
+    "moulton": 34.26,
+    "region": "North_Shore_Essex",
+    "turnout": 3298
+  },
+  "Newton": {
+    "markey": 75.07,
+    "moulton": 24.93,
+    "region": "Inner_Core",
+    "turnout": 16995
+  },
+  "Norfolk": {
+    "markey": 63.24,
+    "moulton": 36.76,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1404
+  },
+  "North Adams": {
+    "markey": 59.11,
+    "moulton": 40.89,
+    "region": "Western_Mass",
+    "turnout": 1295
+  },
+  "North Andover": {
+    "markey": 60.47,
+    "moulton": 39.53,
+    "region": "North_Shore_Essex",
+    "turnout": 3465
+  },
+  "North Attleborough": {
+    "markey": 52.32,
+    "moulton": 47.68,
+    "region": "Southeastern_Bristol",
+    "turnout": 2813
+  },
+  "North Brookfield": {
+    "markey": 48.85,
+    "moulton": 51.15,
+    "region": "Central_Worcester",
+    "turnout": 388
+  },
+  "North Reading": {
+    "markey": 57.28,
+    "moulton": 42.72,
+    "region": "Merrimack_Valley",
+    "turnout": 1831
+  },
+  "Northampton": {
+    "markey": 84.75,
+    "moulton": 15.25,
+    "region": "Western_Mass",
+    "turnout": 6291
+  },
+  "Northborough": {
+    "markey": 62.39,
+    "moulton": 37.61,
+    "region": "MetroWest",
+    "turnout": 2130
+  },
+  "Northbridge": {
+    "markey": 51.55,
+    "moulton": 48.45,
+    "region": "Central_Worcester",
+    "turnout": 1311
+  },
+  "Northfield": {
+    "markey": 66.26,
+    "moulton": 33.74,
+    "region": "Western_Mass",
+    "turnout": 419
+  },
+  "Norton": {
+    "markey": 51.4,
+    "moulton": 48.6,
+    "region": "Southeastern_Bristol",
+    "turnout": 1865
+  },
+  "Norwell": {
+    "markey": 64.11,
+    "moulton": 35.89,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1334
+  },
+  "Norwood": {
+    "markey": 57.14,
+    "moulton": 42.86,
+    "region": "Inner_Core",
+    "turnout": 4157
+  },
+  "Oak Bluffs": {
+    "markey": 69.92,
+    "moulton": 30.08,
+    "region": "Cape_Islands",
+    "turnout": 755
+  },
+  "Oakham": {
+    "markey": 53.88,
+    "moulton": 46.12,
+    "region": "Central_Worcester",
+    "turnout": 186
+  },
+  "Orange": {
+    "markey": 53.98,
+    "moulton": 46.02,
+    "region": "Western_Mass",
+    "turnout": 581
+  },
+  "Orleans": {
+    "markey": 70.07,
+    "moulton": 29.93,
+    "region": "Cape_Islands",
+    "turnout": 1183
+  },
+  "Otis": {
+    "markey": 62.55,
+    "moulton": 37.45,
+    "region": "Western_Mass",
+    "turnout": 202
+  },
+  "Oxford": {
+    "markey": 44.33,
+    "moulton": 55.67,
+    "region": "Central_Worcester",
+    "turnout": 1106
+  },
+  "Palmer": {
+    "markey": 46.34,
+    "moulton": 53.66,
+    "region": "Western_Mass",
+    "turnout": 1133
+  },
+  "Paxton": {
+    "markey": 59.19,
+    "moulton": 40.81,
+    "region": "Central_Worcester",
+    "turnout": 586
+  },
+  "Peabody": {
+    "markey": 49.22,
+    "moulton": 50.78,
+    "region": "North_Shore_Essex",
+    "turnout": 5993
+  },
+  "Pelham": {
+    "markey": 87.02,
+    "moulton": 12.98,
+    "region": "Western_Mass",
+    "turnout": 333
+  },
+  "Pembroke": {
+    "markey": 53.36,
+    "moulton": 46.64,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1895
+  },
+  "Pepperell": {
+    "markey": 61.1,
+    "moulton": 38.9,
+    "region": "Merrimack_Valley",
+    "turnout": 1208
+  },
+  "Peru": {
+    "markey": 55.21,
+    "moulton": 44.79,
+    "region": "Western_Mass",
+    "turnout": 99
+  },
+  "Petersham": {
+    "markey": 67.9,
+    "moulton": 32.1,
+    "region": "Central_Worcester",
+    "turnout": 198
+  },
+  "Phillipston": {
+    "markey": 50.79,
+    "moulton": 49.21,
+    "region": "Central_Worcester",
+    "turnout": 157
+  },
+  "Pittsfield": {
+    "markey": 60.55,
+    "moulton": 39.45,
+    "region": "Western_Mass",
+    "turnout": 5592
+  },
+  "Plainfield": {
+    "markey": 74.45,
+    "moulton": 25.55,
+    "region": "Western_Mass",
+    "turnout": 156
+  },
+  "Plainville": {
+    "markey": 54.3,
+    "moulton": 45.7,
+    "region": "South_Shore_Plymouth",
+    "turnout": 963
+  },
+  "Plymouth": {
+    "markey": 55.91,
+    "moulton": 44.09,
+    "region": "South_Shore_Plymouth",
+    "turnout": 6754
+  },
+  "Plympton": {
+    "markey": 53.7,
+    "moulton": 46.3,
+    "region": "South_Shore_Plymouth",
+    "turnout": 311
+  },
+  "Princeton": {
+    "markey": 70.78,
+    "moulton": 29.22,
+    "region": "Central_Worcester",
+    "turnout": 521
+  },
+  "Provincetown": {
+    "markey": 63.58,
+    "moulton": 36.42,
+    "region": "Cape_Islands",
+    "turnout": 921
+  },
+  "Quincy": {
+    "markey": 59.66,
+    "moulton": 40.34,
+    "region": "Inner_Core",
+    "turnout": 11421
+  },
+  "Randolph": {
+    "markey": 47.75,
+    "moulton": 52.25,
+    "region": "Inner_Core",
+    "turnout": 4340
+  },
+  "Raynham": {
+    "markey": 50.69,
+    "moulton": 49.31,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1225
+  },
+  "Reading": {
+    "markey": 64.59,
+    "moulton": 35.41,
+    "region": "Merrimack_Valley",
+    "turnout": 4396
+  },
+  "Rehoboth": {
+    "markey": 51.62,
+    "moulton": 48.38,
+    "region": "Southeastern_Bristol",
+    "turnout": 1025
+  },
+  "Revere": {
+    "markey": 56.09,
+    "moulton": 43.91,
+    "region": "Inner_Core",
+    "turnout": 4193
+  },
+  "Richmond": {
+    "markey": 74.12,
+    "moulton": 25.88,
+    "region": "Western_Mass",
+    "turnout": 298
+  },
+  "Rochester": {
+    "markey": 55.32,
+    "moulton": 44.68,
+    "region": "Southeastern_Bristol",
+    "turnout": 533
+  },
+  "Rockland": {
+    "markey": 50.73,
+    "moulton": 49.27,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1624
+  },
+  "Rockport": {
+    "markey": 65.96,
+    "moulton": 34.04,
+    "region": "North_Shore_Essex",
+    "turnout": 1463
+  },
+  "Rowe": {
+    "markey": 71.85,
+    "moulton": 28.15,
+    "region": "Western_Mass",
+    "turnout": 65
+  },
+  "Rowley": {
+    "markey": 60.45,
+    "moulton": 39.55,
+    "region": "North_Shore_Essex",
+    "turnout": 695
+  },
+  "Royalston": {
+    "markey": 57.44,
+    "moulton": 42.56,
+    "region": "Central_Worcester",
+    "turnout": 150
+  },
+  "Russell": {
+    "markey": 51.27,
+    "moulton": 48.73,
+    "region": "Western_Mass",
+    "turnout": 123
+  },
+  "Rutland": {
+    "markey": 52.96,
+    "moulton": 47.04,
+    "region": "Central_Worcester",
+    "turnout": 857
+  },
+  "Salem": {
+    "markey": 62.21,
+    "moulton": 37.79,
+    "region": "North_Shore_Essex",
+    "turnout": 6191
+  },
+  "Salisbury": {
+    "markey": 46.87,
+    "moulton": 53.13,
+    "region": "North_Shore_Essex",
+    "turnout": 950
+  },
+  "Sandisfield": {
+    "markey": 60.01,
+    "moulton": 39.99,
+    "region": "Western_Mass",
+    "turnout": 113
+  },
+  "Sandwich": {
+    "markey": 58.29,
+    "moulton": 41.71,
+    "region": "Cape_Islands",
+    "turnout": 2630
+  },
+  "Saugus": {
+    "markey": 51.67,
+    "moulton": 48.33,
+    "region": "North_Shore_Essex",
+    "turnout": 2723
+  },
+  "Savoy": {
+    "markey": 46.34,
+    "moulton": 53.66,
+    "region": "Western_Mass",
+    "turnout": 70
+  },
+  "Scituate": {
+    "markey": 64.23,
+    "moulton": 35.77,
+    "region": "South_Shore_Plymouth",
+    "turnout": 3141
+  },
+  "Seekonk": {
+    "markey": 52.73,
+    "moulton": 47.27,
+    "region": "Southeastern_Bristol",
+    "turnout": 1280
+  },
+  "Sharon": {
+    "markey": 66.32,
+    "moulton": 33.68,
+    "region": "South_Shore_Plymouth",
+    "turnout": 3279
+  },
+  "Sheffield": {
+    "markey": 73.05,
+    "moulton": 26.95,
+    "region": "Western_Mass",
+    "turnout": 471
+  },
+  "Shelburne": {
+    "markey": 74.04,
+    "moulton": 25.96,
+    "region": "Western_Mass",
+    "turnout": 385
+  },
+  "Sherborn": {
+    "markey": 78.81,
+    "moulton": 21.19,
+    "region": "MetroWest",
+    "turnout": 763
+  },
+  "Shirley": {
+    "markey": 57.55,
+    "moulton": 42.45,
+    "region": "Merrimack_Valley",
+    "turnout": 690
+  },
+  "Shrewsbury": {
+    "markey": 60.46,
+    "moulton": 39.54,
+    "region": "Central_Worcester",
+    "turnout": 4237
+  },
+  "Shutesbury": {
+    "markey": 86.8,
+    "moulton": 13.2,
+    "region": "Western_Mass",
+    "turnout": 474
+  },
+  "Somerset": {
+    "markey": 42.25,
+    "moulton": 57.75,
+    "region": "Southeastern_Bristol",
+    "turnout": 1992
+  },
+  "Somerville": {
+    "markey": 86.86,
+    "moulton": 13.14,
+    "region": "Inner_Core",
+    "turnout": 14204
+  },
+  "South Hadley": {
+    "markey": 60.81,
+    "moulton": 39.19,
+    "region": "Western_Mass",
+    "turnout": 2667
+  },
+  "Southampton": {
+    "markey": 58.36,
+    "moulton": 41.64,
+    "region": "Western_Mass",
+    "turnout": 941
+  },
+  "Southborough": {
+    "markey": 68.2,
+    "moulton": 31.8,
+    "region": "MetroWest",
+    "turnout": 1388
+  },
+  "Southbridge": {
+    "markey": 39.67,
+    "moulton": 60.33,
+    "region": "Central_Worcester",
+    "turnout": 1162
+  },
+  "Southwick": {
+    "markey": 48.75,
+    "moulton": 51.25,
+    "region": "Western_Mass",
+    "turnout": 796
+  },
+  "Spencer": {
+    "markey": 48.77,
+    "moulton": 51.23,
+    "region": "Central_Worcester",
+    "turnout": 944
+  },
+  "Springfield": {
+    "markey": 43.57,
+    "moulton": 56.43,
+    "region": "Western_Mass",
+    "turnout": 13932
+  },
+  "Sterling": {
+    "markey": 58.36,
+    "moulton": 41.64,
+    "region": "Central_Worcester",
+    "turnout": 961
+  },
+  "Stockbridge": {
+    "markey": 72.19,
+    "moulton": 27.81,
+    "region": "Western_Mass",
+    "turnout": 436
+  },
+  "Stoneham": {
+    "markey": 65.54,
+    "moulton": 34.46,
+    "region": "Inner_Core",
+    "turnout": 3137
+  },
+  "Stoughton": {
+    "markey": 52.47,
+    "moulton": 47.53,
+    "region": "South_Shore_Plymouth",
+    "turnout": 3300
+  },
+  "Stow": {
+    "markey": 74.23,
+    "moulton": 25.77,
+    "region": "MetroWest",
+    "turnout": 1305
+  },
+  "Sturbridge": {
+    "markey": 55.59,
+    "moulton": 44.41,
+    "region": "Central_Worcester",
+    "turnout": 1042
+  },
+  "Sudbury": {
+    "markey": 75.6,
+    "moulton": 24.4,
+    "region": "MetroWest",
+    "turnout": 3043
+  },
+  "Sunderland": {
+    "markey": 75.17,
+    "moulton": 24.83,
+    "region": "Western_Mass",
+    "turnout": 549
+  },
+  "Sutton": {
+    "markey": 53.11,
+    "moulton": 46.89,
+    "region": "Central_Worcester",
+    "turnout": 885
+  },
+  "Swampscott": {
+    "markey": 64.41,
+    "moulton": 35.59,
+    "region": "North_Shore_Essex",
+    "turnout": 2440
+  },
+  "Swansea": {
+    "markey": 41.5,
+    "moulton": 58.5,
+    "region": "Southeastern_Bristol",
+    "turnout": 1542
+  },
+  "Taunton": {
+    "markey": 42.77,
+    "moulton": 57.23,
+    "region": "Southeastern_Bristol",
+    "turnout": 4449
+  },
+  "Templeton": {
+    "markey": 46.95,
+    "moulton": 53.05,
+    "region": "Central_Worcester",
+    "turnout": 589
+  },
+  "Tewksbury": {
+    "markey": 55.42,
+    "moulton": 44.58,
+    "region": "Merrimack_Valley",
+    "turnout": 3379
+  },
+  "Tisbury": {
+    "markey": 69.6,
+    "moulton": 30.4,
+    "region": "Cape_Islands",
+    "turnout": 711
+  },
+  "Tolland": {
+    "markey": 50.96,
+    "moulton": 49.04,
+    "region": "Western_Mass",
+    "turnout": 40
+  },
+  "Topsfield": {
+    "markey": 62.57,
+    "moulton": 37.43,
+    "region": "North_Shore_Essex",
+    "turnout": 868
+  },
+  "Townsend": {
+    "markey": 57.37,
+    "moulton": 42.63,
+    "region": "Merrimack_Valley",
+    "turnout": 791
+  },
+  "Truro": {
+    "markey": 68.91,
+    "moulton": 31.09,
+    "region": "Cape_Islands",
+    "turnout": 544
+  },
+  "Tyngsborough": {
+    "markey": 52.96,
+    "moulton": 47.04,
+    "region": "Merrimack_Valley",
+    "turnout": 1253
+  },
+  "Tyringham": {
+    "markey": 80.91,
+    "moulton": 19.09,
+    "region": "Western_Mass",
+    "turnout": 94
+  },
+  "Upton": {
+    "markey": 60.12,
+    "moulton": 39.88,
+    "region": "MetroWest",
+    "turnout": 923
+  },
+  "Uxbridge": {
+    "markey": 48.81,
+    "moulton": 51.19,
+    "region": "Central_Worcester",
+    "turnout": 1239
+  },
+  "Wakefield": {
+    "markey": 64.09,
+    "moulton": 35.91,
+    "region": "Merrimack_Valley",
+    "turnout": 3611
+  },
+  "Wales": {
+    "markey": 45.6,
+    "moulton": 54.4,
+    "region": "Western_Mass",
+    "turnout": 152
+  },
+  "Walpole": {
+    "markey": 59.27,
+    "moulton": 40.73,
+    "region": "South_Shore_Plymouth",
+    "turnout": 3312
+  },
+  "Waltham": {
+    "markey": 69.54,
+    "moulton": 30.46,
+    "region": "Inner_Core",
+    "turnout": 6956
+  },
+  "Ware": {
+    "markey": 47.15,
+    "moulton": 52.85,
+    "region": "Western_Mass",
+    "turnout": 772
+  },
+  "Wareham": {
+    "markey": 46.31,
+    "moulton": 53.69,
+    "region": "South_Shore_Plymouth",
+    "turnout": 2219
+  },
+  "Warren": {
+    "markey": 47.26,
+    "moulton": 52.74,
+    "region": "Central_Worcester",
+    "turnout": 375
+  },
+  "Warwick": {
+    "markey": 55.71,
+    "moulton": 44.29,
+    "region": "Western_Mass",
+    "turnout": 120
+  },
+  "Washington": {
+    "markey": 60.86,
+    "moulton": 39.14,
+    "region": "Western_Mass",
+    "turnout": 104
+  },
+  "Watertown": {
+    "markey": 77.42,
+    "moulton": 22.58,
+    "region": "Inner_Core",
+    "turnout": 5840
+  },
+  "Wayland": {
+    "markey": 74.53,
+    "moulton": 25.47,
+    "region": "MetroWest",
+    "turnout": 2109
+  },
+  "Webster": {
+    "markey": 42.51,
+    "moulton": 57.49,
+    "region": "Central_Worcester",
+    "turnout": 1170
+  },
+  "Wellesley": {
+    "markey": 72.67,
+    "moulton": 27.33,
+    "region": "MetroWest",
+    "turnout": 4418
+  },
+  "Wellfleet": {
+    "markey": 74.95,
+    "moulton": 25.05,
+    "region": "Cape_Islands",
+    "turnout": 693
+  },
+  "Wendell": {
+    "markey": 84.67,
+    "moulton": 15.33,
+    "region": "Western_Mass",
+    "turnout": 29
+  },
+  "Wenham": {
+    "markey": 67.02,
+    "moulton": 32.98,
+    "region": "North_Shore_Essex",
+    "turnout": 562
+  },
+  "West Boylston": {
+    "markey": 54.85,
+    "moulton": 45.15,
+    "region": "Central_Worcester",
+    "turnout": 969
+  },
+  "West Bridgewater": {
+    "markey": 48.68,
+    "moulton": 51.32,
+    "region": "South_Shore_Plymouth",
+    "turnout": 814
+  },
+  "West Brookfield": {
+    "markey": 53.83,
+    "moulton": 46.17,
+    "region": "Central_Worcester",
+    "turnout": 377
+  },
+  "West Newbury": {
+    "markey": 63.63,
+    "moulton": 36.37,
+    "region": "North_Shore_Essex",
+    "turnout": 696
+  },
+  "West Springfield": {
+    "markey": 48.84,
+    "moulton": 51.16,
+    "region": "Western_Mass",
+    "turnout": 2618
+  },
+  "West Stockbridge": {
+    "markey": 76.27,
+    "moulton": 23.73,
+    "region": "Western_Mass",
+    "turnout": 283
+  },
+  "West Tisbury": {
+    "markey": 78.84,
+    "moulton": 21.16,
+    "region": "Cape_Islands",
+    "turnout": 628
+  },
+  "Westborough": {
+    "markey": 67.56,
+    "moulton": 32.44,
+    "region": "MetroWest",
+    "turnout": 2183
+  },
+  "Westfield": {
+    "markey": 49.95,
+    "moulton": 50.05,
+    "region": "Western_Mass",
+    "turnout": 3610
+  },
+  "Westford": {
+    "markey": 67.68,
+    "moulton": 32.32,
+    "region": "Merrimack_Valley",
+    "turnout": 3157
+  },
+  "Westhampton": {
+    "markey": 69.55,
+    "moulton": 30.45,
+    "region": "Western_Mass",
+    "turnout": 326
+  },
+  "Westminster": {
+    "markey": 57.52,
+    "moulton": 42.48,
+    "region": "Central_Worcester",
+    "turnout": 788
+  },
+  "Weston": {
+    "markey": 71.75,
+    "moulton": 28.25,
+    "region": "MetroWest",
+    "turnout": 1611
+  },
+  "Westport": {
+    "markey": 48.19,
+    "moulton": 51.81,
+    "region": "Southeastern_Bristol",
+    "turnout": 1643
+  },
+  "Westwood": {
+    "markey": 65.27,
+    "moulton": 34.73,
+    "region": "Inner_Core",
+    "turnout": 2555
+  },
+  "Weymouth": {
+    "markey": 55.96,
+    "moulton": 44.04,
+    "region": "Inner_Core",
+    "turnout": 7166
+  },
+  "Whately": {
+    "markey": 70.2,
+    "moulton": 29.8,
+    "region": "Western_Mass",
+    "turnout": 289
+  },
+  "Whitman": {
+    "markey": 51.58,
+    "moulton": 48.42,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1449
+  },
+  "Wilbraham": {
+    "markey": 56.36,
+    "moulton": 43.64,
+    "region": "Western_Mass",
+    "turnout": 1853
+  },
+  "Williamsburg": {
+    "markey": 78.84,
+    "moulton": 21.16,
+    "region": "Western_Mass",
+    "turnout": 663
+  },
+  "Williamstown": {
+    "markey": 82.93,
+    "moulton": 17.07,
+    "region": "Western_Mass",
+    "turnout": 1186
+  },
+  "Wilmington": {
+    "markey": 54.62,
+    "moulton": 45.38,
+    "region": "Merrimack_Valley",
+    "turnout": 2719
+  },
+  "Winchendon": {
+    "markey": 46.16,
+    "moulton": 53.84,
+    "region": "Central_Worcester",
+    "turnout": 611
+  },
+  "Winchester": {
+    "markey": 74.11,
+    "moulton": 25.89,
+    "region": "Inner_Core",
+    "turnout": 3263
+  },
+  "Windsor": {
+    "markey": 63.88,
+    "moulton": 36.12,
+    "region": "Western_Mass",
+    "turnout": 128
+  },
+  "Winthrop": {
+    "markey": 65.94,
+    "moulton": 34.06,
+    "region": "Inner_Core",
+    "turnout": 2231
+  },
+  "Woburn": {
+    "markey": 61.25,
+    "moulton": 38.75,
+    "region": "Inner_Core",
+    "turnout": 4788
+  },
+  "Worcester": {
+    "markey": 54.71,
+    "moulton": 45.29,
+    "region": "Central_Worcester",
+    "turnout": 15229
+  },
+  "Worthington": {
+    "markey": 69.98,
+    "moulton": 30.02,
+    "region": "Western_Mass",
+    "turnout": 252
+  },
+  "Wrentham": {
+    "markey": 59.65,
+    "moulton": 40.35,
+    "region": "South_Shore_Plymouth",
+    "turnout": 1370
+  },
+  "Yarmouth": {
+    "markey": 54.85,
+    "moulton": 45.15,
+    "region": "Cape_Islands",
+    "turnout": 3093
+  }
+}

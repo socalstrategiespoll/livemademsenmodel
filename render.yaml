@@ -1,0 +1,31 @@
+# Render blueprint: one web service that polls civicAPI and serves the
+# projection for the MA Senate Democratic Primary (Markey vs. Moulton).
+# Same reasoning as the Wisconsin/Michigan builds -- see UNIVERSAL_TEMPLATE_GUIDE.md.
+#
+# Layout is flat: every file sits at the repository root, including the site
+# files, because GitHub's web uploader does not preserve folders.
+
+services:
+  - type: web
+    name: ma-senate-primary-model
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.3"
+      - key: RACE_ID
+        # 2026 MA U.S. Senate Democratic Primary (Markey vs. Moulton).
+        # Election day is September 1, 2026; polls close 8:00 PM ET.
+        value: "87556"
+      - key: N_SIMS
+        value: "20000"
+      - key: POLL_INTERVAL
+        value: "60"
+
+      # Optional. Set this to a mounted Render disk path (for example /var/data) if
+      # you want town-level turnout/reporting state to survive a restart.
+      # - key: STATE_DIR
+      #   value: /var/data

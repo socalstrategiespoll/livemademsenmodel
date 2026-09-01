@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Massachusetts U.S. Senate Democratic Primary — Live Model</title>
+<meta name="description" content="Live town-level Bayesian projection of the 2026 Massachusetts U.S. Senate Democratic Primary." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="race">
+      <span class="eyebrow">Massachusetts · U.S. Senate · Democratic Primary</span>
+      <span class="firm">SoCal Strategies live model</span>
+    </div>
+    <div class="pulse" id="pulse" data-state="connecting">
+      <span class="dot"></span>
+      <span id="pulse-label">connecting</span>
+      <span class="stamp" id="stamp"></span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <p class="alert" id="alert" hidden></p>
+
+  <section class="thesis" id="thesis" aria-live="polite">
+    <div class="verdict">
+      <span class="verdict-label">Projected margin</span>
+      <div class="verdict-line">
+        <span class="verdict-name" id="lead-name">—</span>
+        <span class="verdict-number" id="lead-margin">—</span>
+      </div>
+      <span class="verdict-sub" id="verdict-sub">Waiting for the first results</span>
+    </div>
+
+    <figure class="dist">
+      <svg id="dist-svg" viewBox="0 0 720 200" preserveAspectRatio="none"
+           role="img" aria-labelledby="dist-title">
+        <title id="dist-title">Simulated distribution of the final margin</title>
+        <g id="dist-band"></g>
+        <path id="dist-fill" class="dist-fill" d="" />
+        <path id="dist-line" class="dist-line" d="" />
+        <line id="dist-zero" class="dist-zero" y1="8" y2="176" />
+        <line id="dist-median" class="dist-median" y1="4" y2="176" />
+      </svg>
+      <figcaption class="dist-axis" id="dist-axis"></figcaption>
+      <figcaption class="dist-key">
+        <span><i class="swatch band-90"></i>Middle 90%: <b id="range-90">—</b></span>
+        <span><i class="swatch band-50"></i>Middle 50%: <b id="range-50">—</b></span>
+        <span><i class="swatch tick-zero"></i>tie</span>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="split">
+    <div class="stat stat-wide">
+      <span class="stat-label">Win probability</span>
+      <span class="stat-value" id="win-prob">—</span>
+      <span class="stat-note" id="win-note">—</span>
+    </div>
+    <div class="stat">
+      <span class="stat-label">Vote counted</span>
+      <span class="stat-value" id="counted">—</span>
+      <span class="stat-note"><span id="precincts">—</span> of precincts in</span>
+    </div>
+    <div class="stat">
+      <span class="stat-label">Projected turnout</span>
+      <span class="stat-value" id="turnout">—</span>
+      <span class="stat-note">across all 348 modeled towns</span>
+    </div>
+  </section>
+
+  <section class="tally">
+    <div class="tally-head">
+      <span class="tally-name markey">Markey <b id="markey-votes">—</b></span>
+      <span class="tally-name moulton"><b id="moulton-votes">—</b> Moulton</span>
+    </div>
+    <div class="tally-bar">
+      <span class="tally-markey" id="tally-markey"></span>
+      <span class="tally-moulton" id="tally-moulton"></span>
+    </div>
+    <div class="tally-foot">
+      <span id="markey-pct">—</span>
+      <span id="moulton-pct">—</span>
+    </div>
+    <p class="panel-note" style="margin-top:0.4rem;max-width:none;">Projected shares (counted + modeled remainder), not raw votes counted so far.</p>
+  </section>
+
+  <section class="ranges">
+    <p class="panel-note">
+      Each candidate's own simulated range for their FINAL statewide vote share
+      (not the margin between them). Other's range runs wide because it's an
+      aggregate of the rest of the field with no direct polling on the bucket
+      itself.
+    </p>
+    <div class="range-grid" id="range-grid"></div>
+  </section>
+
+
+  <section class="maps">
+    <div class="map-head">
+      <h2>Massachusetts by town</h2>
+      <div class="map-controls">
+        <button id="unpin" hidden>Clear pin</button>
+        <button id="zoom-out" aria-label="Zoom out">&minus;</button>
+        <button id="zoom-in" aria-label="Zoom in">+</button>
+        <button id="zoom-reset" hidden>Reset</button>
+      </div>
+    </div>
+
+    <p class="panel-note">
+      Scroll to zoom, drag to pan. Both maps move together. Hover a town to
+      inspect it, click to pin it.
+      <span id="pin-note" hidden>Pinned.</span>
+    </p>
+
+    <div class="map-grid">
+      <figure class="map-cell">
+        <figcaption class="map-title">Counted so far</figcaption>
+        <p class="map-sub" id="note-counted"></p>
+        <svg id="svg-counted" viewBox="0 0 700 430" role="img"
+             aria-label="Massachusetts towns by margin in votes counted so far">
+          <g id="shapes-counted"></g>
+        </svg>
+        <div class="legend" id="legend-counted"></div>
+      </figure>
+
+      <figure class="map-cell">
+        <figcaption class="map-title">Still out</figcaption>
+        <p class="map-sub" id="note-remaining"></p>
+        <svg id="svg-remaining" viewBox="0 0 700 430" role="img"
+             aria-label="Massachusetts towns by projected margin of the uncounted vote">
+          <g id="shapes-remaining"></g>
+        </svg>
+        <div class="legend" id="legend-remaining"></div>
+      </figure>
+    </div>
+
+    <div class="map-detail" id="map-detail" data-county="">
+      <p class="map-hint">Hover a town on either map. Click to pin it.</p>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Counties reporting</h2>
+    <p class="panel-note">
+      Sorted by votes counted. <b>Swing</b> is how far the town has come in
+      against what the model expected for it.
+    </p>
+    <div class="table-wrap">
+      <table class="counties">
+        <thead>
+          <tr>
+            <th scope="col">Town</th>
+            <th scope="col" class="num">In</th>
+            <th scope="col" class="num">Markey</th>
+            <th scope="col" class="num">Moulton</th>
+            <th scope="col" class="num">Margin</th>
+            <th scope="col" class="num">Expected</th>
+            <th scope="col" class="num">Swing</th>
+          </tr>
+        </thead>
+        <tbody id="county-rows">
+          <tr class="empty"><td colspan="7">No towns reporting yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="two-up">
+    <div class="panel">
+      <h2>Regional swing</h2>
+      <p class="panel-note">
+        How far each region is running from its pre-election baseline.
+      </p>
+      <div class="regions" id="regions"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Model state</h2>
+      <p class="panel-note">
+        What the model has learned so far, as opposed to what it assumed.
+        Massachusetts towns report in no consistent order, so this model is
+        deductive rather than mode-inferring: it holds counted votes fixed
+        and projects only the uncounted remainder.
+      </p>
+      <dl class="diag">
+        <dt>Towns reporting</dt><dd id="d-counties">—</dd>
+        <dt>Statewide swing</dt><dd id="d-shift">—</dd>
+        <dt>50% interval</dt><dd id="d-ci50">—</dd>
+        <dt>90% interval</dt><dd id="d-ci90">—</dd>
+      </dl>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Results from <a href="https://civicapi.org">civicAPI</a>. Projections are
+      modeled estimates from a town-level Bayesian simulation, not race calls.
+      Early in the count the model is mostly reporting its prior back to you.
+    </p>
+  </footer>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
